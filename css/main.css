@@ -1,0 +1,257 @@
+
+/*GENERAL ELEMENTS*/
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    /* background-color: black; */
+}
+nav{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px black solid;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+main{
+    width: 90%;
+    margin: 0 0 .5rem 5%;
+}
+section{
+    height: 700px;
+    width: 100%;
+    /* border: 1px blue solid; */
+    display: flex;
+    flex-direction: column;
+   
+}
+article{
+    display: flex;
+    justify-content: center;
+}
+article div{
+    border: 1px solid black;
+    background-color: black;
+    opacity: .8;
+}
+article div>p{
+    width: 80%;
+    margin-left: 10%;
+    font-size: medium;
+}
+
+h1{
+    text-align: center;
+    margin: .5rem 0 ;
+    font-family: 'Righteous', cursive;
+}
+p{
+    color: white;
+    margin: .5rem 0;
+}
+button{
+    padding: .1rem .5rem;
+    border: none;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 245, 135);
+    font-family: 'Righteous', cursive;
+}
+footer{
+    margin: 0;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    height: 250px
+}
+
+
+/* CLASSES */
+.button{
+    width: auto;
+    text-align: center;
+    margin: .5rem 0;
+    
+}
+
+.sectionTitle{
+    color: white;
+}
+.videos>video{
+    width: 100%;
+   
+}
+
+/* HOME PAGE */
+/*NAVIGATION BAR*/
+#logo{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo>img{
+    width: 2rem;
+}
+
+#title{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: 'Righteous', cursive;
+}
+#title>h1, h3{
+    margin: 0; 
+}
+#title h3{
+    font-size: smaller;
+}
+
+
+#contact{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#contact>a>img{
+    width: 1.5rem;
+}
+/* BODY-->MAIN */
+#introduction{
+    background: url("../pics/backgrounds/ballBackground.JPEG") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#intro1{
+   height: 100%;
+    width: 60%;
+    margin: .5rem;
+    font-size: 1.5rem;
+}
+#intro2{
+    width: 20%;
+    margin-right: .5rem;
+    font-size: 1.5rem;
+}
+/* COACHES */
+
+#coachesPics{
+    height: 500px;
+    background: url("../pics/coaches/coachPicMiguel.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* GALLERY */
+#galleryPics{
+    height: 500px;
+    background: url("../pics/tempPics/IMG_0687.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#gallery2{
+    height: 620px;
+}
+#gallery{
+    height: 620px;
+    /* margin-top: .5rem; */
+    background: url("../pics/backgrounds/blackpattern.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+
+#extraDrills>div, #drills>div{
+    width: 90%;
+   margin: 2rem 0 0 5%;
+   opacity: .9;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+
+#extraDrills>div>p{
+    font-size: larger;
+}
+
+#drills>div>p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: larger;
+}
+#drills{
+    display: none;
+}
+
+/* FOOTER */
+
+
+#creatorTitle{
+    margin: .5rem 0;
+}
+#creatorTitle>h1{
+    font-family: 'Ceviche One', cursive;
+    letter-spacing: .1rem;
+    color: #fdfdfd;
+
+/* text-shadow: 10px 10px 25px rgb(156, 42, 22),
+    -10px 10px 25px rgb(156, 42, 22),
+    -10px -10px 25px rgb(156, 42, 22),
+    10px -10px 25px rgb(156, 42, 22); */
+}
+
+#footerLinks-SocialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: whitesmoke solid 1px;
+}
+#footerLinks-SocialMedia a{
+   margin: 0;
+}
+#footerLinks-SocialMedia a>img{
+    width: 2rem;
+    margin: 0 .5rem;
+ }
+ #footerSecurity{
+     display: flex;
+     color: rgb(184, 184, 184);
+     font-family: 'Righteous', cursive;
+     font-size: .8rem;
+     margin: 1rem .5rem;
+ }
+ #footerSecurity>div>a{
+     margin: .3rem 0;
+ }
+ #footerSecurity>div{
+     width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+ }
+ #waiver{
+     text-align: right;
+ }
+ #copyRight{
+     background-color: white;
+     margin: 0; 
+ }
+ #copyRight>p{
+     color: black;
+     text-align: center;
+     font-family: 'Righteous', cursive;
+ }

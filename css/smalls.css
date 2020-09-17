@@ -1,0 +1,24 @@
+@media only screen and (max-width: 500px) {
+    /* BODY-->MAIN */
+    main{
+        width: 100%;
+        margin: 0;
+    }
+    article{
+        flex-direction: column;
+    }
+    section{
+        height: 500px;
+    }
+    #intro1{
+        width: 90%;
+        margin: 0 0 0 5%;
+       
+    }
+    #intro2{
+        width: 90%;
+        margin: .5rem 0 0 5%;
+        
+        height: 200px;
+    }
+}
