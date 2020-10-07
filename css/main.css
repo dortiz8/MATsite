@@ -1,6 +1,8 @@
 
 /*GENERAL ELEMENTS*/
-
+html{
+    overflow-x: hidden;
+}
 body{
     font-family: 'Oswald', sans-serif;
     width: 100%;
