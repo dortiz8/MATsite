@@ -2,6 +2,7 @@
 /*GENERAL ELEMENTS*/
 html{
     overflow-x: hidden;
+    width: 100%;
 }
 body{
     font-family: 'Oswald', sans-serif;
