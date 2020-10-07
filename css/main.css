@@ -1,6 +1,6 @@
 
 /*GENERAL ELEMENTS*/
-html, body {width: auto!important; overflow-x: hidden!important} 
+html, body {width: auto!important; overflow-x: hidden!important; overflow-y: scroll!important;} 
 body{
     font-family: 'Oswald', sans-serif;
     margin: 0;
@@ -8,9 +8,10 @@ body{
 }
 nav{
     height: 50px;
-    width: 100%;
+    width: 70%;
+    
     border-bottom: 1px black solid;
-    margin: 0;
+    margin: 0 0 0 15%;
     position: sticky;
     top: 0;
     display: flex;
@@ -18,22 +19,24 @@ nav{
     z-index: 2;
 }
 footer{
-    width: 100%;
-    margin: 0;
-    position: sticky;
+    width: 70%;
+    margin: 0 0 0 15%;
+    
     display: flex;
     flex-direction: column;
     background-color: rgb(0, 0, 0);
     height: 250px
 }
 
-/* main{
-    width: 90%;
-    margin: 0 0 .5rem 5%;
-} */
+main{
+    width: 70%;
+
+    margin: 0 0 0 15%;
+    border-bottom: 1px solid yellow;
+}
 section{
     /* height: 700px; */
-    width: 100%;
+    
     /* border: 1px blue solid; */
     display: flex;
     flex-direction: column;
@@ -110,7 +113,7 @@ button{
 }
 
 #title{
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -130,11 +133,12 @@ button{
     width: 40%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
+    
 }
 #contact>a>img{
     width: 1.5rem;
-    
+    margin: 0 0 0 1rem;
 }
 /* BODY-->MAIN */
 #introduction{
@@ -176,25 +180,24 @@ button{
 
 /* COACHES */
 #coaches{
+    width: 70%;
+    margin-left: 15%;
     height: auto;
     margin-bottom: 3rem;
-   
+    
 }
 
 #coachesInfo{
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    /* background: url("../pics/backgrounds/grass.jpg") no-repeat; */
-    background-position: center;
-    background-size: cover;
+    
 }
 #coachPicture{
-    /* width: 76%;
-    height: 350px; */
-    height: 300px;
-    margin: .5rem; 
+    width: 80%;
+    
+    height: 350px; 
+    margin: .5rem 0 .5rem 10%; 
     border-radius: 50%;
 }
 #coachesInfo div{
@@ -251,7 +254,7 @@ button{
 
 
 #vids{
-  height: 900px;
+  height: auto;
   padding: 2rem 0;
   background-color: rgb(241, 241, 241); 
 }
@@ -273,14 +276,16 @@ button{
 /*CALENDAR*/
 #calendar{
     background-color: rgb(241, 241, 241);
+    margin: 0;
 }
 #calendarButton{
-    width: 80%;
-    margin: 0 0 2rem 10%;
+    width: 40%;
+    margin: 0 0 2rem 30%;
+    
 }
 #googleCalendar{
     display: none;
-    padding: 2rem 0;
+    padding: 0;
 }
 
 
