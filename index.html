@@ -1,14 +1,17 @@
 <!DOCTYPE html>
+
 <head>
     <title>MTDO_TestSite</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/main.css"> 
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/smalls.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <nav>
         <div id="logo">
@@ -21,103 +24,140 @@
         <div id="contact">
             <a><img src="pics/icons/icons8-facebook-96.png"></a>
             <a><img src="pics/icons/icons8-instagram-104.png"></a>
+            <a><img src="pics/icons/icons8-youtube-squared-96.png"></a>
             <a><img src="pics/icons/icons8-email-open-100.png"></a>
-            <a><img src="pics/icons/icons8-twitter-96.png"></a>
+
         </div>
     </nav>
+
     <main class="Main">
         <section id="introduction">
-            <h1 class="sectionTitle">About</h1>
-            <article>
-                <div id="intro1">
-                    <p>Welcome to our page! Get ready to work hard and have fun
-                        with us and the team. Our camp is designed to teach you
-                        all the way from basic concepts to complex ideas of the 
-                        beautiful game. Our goal is to increase your overall 
-                        performance as a player so you can show off your skills 
-                       any time and anywhere. 
-                    </p>
-                  
-                    <p>
-                        test text please input any ideas here for the welome page
-                    </p>
-                </div>
-                <div id="intro2">
-                   <p>
-                      Who are we? 
-                   </p>
-                   <p>
-                       A group of ex-players who are passionate about the game! We
-                       will dedicated to your success on the pitch. Here is a short-snip of
-                       our credentials. 
-                   </p>
-                </div>
-            </article>
+
+            <div class="banner" data-aos="fade-left">
+                WORK ><br> TALENT
+            </div>
 
         </section>
-        <section id="coaches1" data-aos="fade-up">
-            <h1>Coaches</h1>
-            <div id="coachesPics">
-                
+        <section id="about">
+            <span class="slogan" data-aos="fade-right">WE WANT <br>
+                TO HELP YOU <br><b>IMPROVE!!</b>
+            </span>
+            <div id="academyDescription">
+                <p>Coach Academy in Goldsboro, NC</p>
+                <p>At SPINX Digital, our team of innovators and digital marketers
+                    in tech and design bring skills above and beyond the ordinary
+                    to every project. Our Los Angeles web design and development
+                    team is involved in professional B2B and B2C web design and
+                    development, mobile applications, digital strategy, user
+                    experience, advertising, social media, content management systems, and email marketing initiatives.
+                </p>
+            </div>
+        </section>
+        <section id="coaches" data-aos="fade-up">
+            <h1>COACHES</h1>
+            <div id="coachesInfo">
+
+                <div>
+                    <img id="coachPicture" alt="coach picture">
+                </div>
+                <div>
+                    <div id="coachesButtonDiv" data-aos="fade-right">
+                        <button id="coachname1" onclick="displayOtherCoaches()"></button>
+                    </div>
+                    <div data-aos="fade-left" id="coachesDetails">
+                        <h3>Coaching Experience</h3>
+                        <div id="experience">
+                            <p>bio #1</p>
+                            <p>bio #1</p>
+                            <p>bio #1</p>
+                        </div>
+                        <h3>Former Teams</h3>
+                        <div id="formerTeams">
+                            <p>team #1</p>
+                            <p>team #1</p>
+                        </div>
+                        <h3>Certifications</h3>
+                        <div id="certifications">
+                            <p>cert #1</p>
+                            <p>cert #1</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="gallery1" data-aos="fade-up">
-            <h1>Gallery</h1>
+
             <div id="galleryPics">
-                
+                <h1>GALLERY</h1>
+                <div>
+
+                </div>
+
             </div>
         </section>
-        <section id="gallery2" data-aos="fade-up">
-            <h1>Videos</h1>
-            <div id="gallery">
-                <div id="galleryVids"  class="videos">
-                    <video width="320" height="240" controls>
+        <section id="vids" data-aos="fade-up">
+            <div id="videos">
+                <h3>Video of the Week</h3>
+                <div id="video" class="videos">
+                    <video width="320" controls data-aos="fade-right">
                         <source src="videos/MVI_0463.MOV" type="">
                         Your browser does not support the video tag.
                     </video>
                 </div>
-                <article id="extraDrills" data-aos="fade-right">
+                <article id="extraDrills" data-aos="fade-left">
                     <div>
                         <p>
-                            Work hard, play harder! Talent is only a small part of what
-                            makes a great consitent player. Check-out some of these basic drills
-                            and practice them anywhere you can!  
+                            Here is our video of the week. Joey is
+                            a young aspiring player from Mount Olive, NC
+                            who is always active
+                            and looking to improve his skills.
                         </p>
-                        <div class="button">
-                            <button>V</button>
-                        </div>
-                        
+
                     </div>
+
                 </article>
-                
-                <article id="drills" data-aos="fade-right">
-                    <div>
-                        <p>
-                          <a>Cone Dribbling</a>
-                          <a>Drill 2</a> 
-                          <a>Drill 3</a> 
-                          <a>Drill 4</a> 
-                        </p>
-                        <div class="button">
-                            <button>Λ</button>
-                        </div>
-                        
-                    </div>
-                </article>
+
+
             </div>
-           
-         
+
+            <div id="videos">
+                <h3>Program Overview</h3>
+                <div id="video" class="videos">
+                    <video width="320" controls data-aos="fade-right">
+                        <source src="videos/MVI_0463.MOV" type="">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <article id="extraDrills" data-aos="fade-left">
+                    <div>
+                        <p>
+                            See who we are and what we are aspiring to
+                            accomplish with the youth around the surrounding
+                            areas. Check out what we have to offer and where we
+                            want to take this program.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+            </div>
         </section>
-        <section id="calendar"  data-aos="fade-up">
-            <h1>Calendar</h1>
-            <iframe src="https://calendar.google.com/calendar/embed?height=612&amp;wkst=1&amp;bgcolor=%23616161&amp;ctz=America%2FNew_York&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%230B8043&amp;title=MAT%20PRACTICE%20SCHEDULE&amp;showNav=1&amp;showDate=1&amp;showPrint=1&amp;showTabs=0" style="border-width:0" 
-            width="auto" height="612" frameborder="0" scrolling="no"></iframe>
+        <section id="calendar" data-aos="fade-up">
+            <button id="calendarButton">SCHEDULE ++</button>
+            <div id="googleCalendar">
+                <iframe
+                    src="https://calendar.google.com/calendar/embed?height=612&amp;wkst=1&amp;bgcolor=%23616161&amp;ctz=America%2FNew_York&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%230B8043&amp;title=MAT%20PRACTICE%20SCHEDULE&amp;showNav=1&amp;showDate=1&amp;showPrint=1&amp;showTabs=0"
+                    style="border-width:0" width="100%" height="612" frameborder="0" scrolling="no" data-aos="fade-right"></iframe>
+            </div>
+
         </section>
     </main>
-    <footer data-aos="fade-up">
+    <footer>
         <div id="creatorTitle" data-aos="fade-right">
             <h1>lastGoal</h1>
-            
+
         </div>
         <div id="footerLinks-SocialMedia">
             <a><img src="pics/icons/colored/icons8-facebook-96.png"></a>
@@ -147,7 +187,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
 </body>
 
 

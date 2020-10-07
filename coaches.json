@@ -1,0 +1,18 @@
+[
+    {
+        "fullname": "Miguel Torres >>", 
+        "experience": ["Head Coach - Spring Creek High School Men's Varsity Soccer 2019-Present", 
+                        "Assistant Coach - Goldsboro Strike Eagles 2019-2020"], 
+        "soccerclubs": ["Southern Wayne High School Varsity Soccer"],
+        "certifications": ["US Soccer Education - National D License"], 
+        "picture": "pics/coaches/coachPicMiguel.jpg"
+    }, 
+    {
+        "fullname": "<< Dante Ortiz", 
+        "experience": ["Head Coach - Spring Creek High School Men's Varsity Soccer 2016-17", 
+                        "Head Coach - Spring Creek High School Women's Varsity Soccer 2016-17"],
+        "soccerclubs": ["University of Mount Olive Varsity Soccer" , "Spring Creek High School Varsity Soccer"],                
+        "certifications": ["Persuing US Soccer Education - National D License"],
+        "picture": "pics/coaches/coachPicDante.JPEG"
+    }
+]

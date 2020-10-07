@@ -1,0 +1,29 @@
+
+body{
+    display: flex;
+}
+
+.glove{
+    transition: transform .25s ease-in;
+}
+
+.playing .glove{
+    transform: translate(30px);
+}
+
+
+.ball{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px black solid;
+    background-color: red;
+
+    transition: all 1s .25s; 
+}
+
+.playing .ball{
+    transform: translateX(200px);
+    background-color: green;
+    border: 10px solid black;
+}

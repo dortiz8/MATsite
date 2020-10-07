@@ -2,10 +2,11 @@
 /*GENERAL ELEMENTS*/
 
 body{
+    font-family: 'Oswald', sans-serif;
     width: 100%;
     height: 100vh;
     margin: 0;
-    /* background-color: black; */
+    background-color: rgb(255, 255, 255);
 }
 nav{
     height: 50px;
@@ -24,11 +25,12 @@ main{
     margin: 0 0 .5rem 5%;
 }
 section{
-    height: 700px;
+    /* height: 700px; */
     width: 100%;
     /* border: 1px blue solid; */
     display: flex;
     flex-direction: column;
+  
    
 }
 article{
@@ -36,9 +38,11 @@ article{
     justify-content: center;
 }
 article div{
-    border: 1px solid black;
-    background-color: black;
-    opacity: .8;
+    border: 1px solid rgb(248, 248, 248);
+    background-color: rgb(65, 65, 65);
+    opacity: .9;
+    height: auto;
+    text-align: center;
 }
 article div>p{
     width: 80%;
@@ -48,20 +52,29 @@ article div>p{
 
 h1{
     text-align: center;
-    margin: .5rem 0 ;
+    margin: 2rem 0 ;
     font-family: 'Righteous', cursive;
+    color: rgb(53, 53, 53);
+}
+h3{
+    text-align: center;
+    margin: 1rem; 
+    font-family: 'Oswald', sans-serif;
+    color: rgb(53, 53, 53);
 }
 p{
-    color: white;
+    font-family: 'Oswald', sans-serif;
     margin: .5rem 0;
 }
 button{
-    padding: .1rem .5rem;
+    font-size: large;
+    padding: .5rem 0;
     border: none;
-    font-weight: bolder;
-    color: rgb(0, 0, 0);
-    background-color: rgb(245, 245, 135);
+    color: yellow; 
+    background-color: black;
     font-family: 'Righteous', cursive;
+    background:black; 
+    border-bottom: 1px solid yellow;
 }
 footer{
     margin: 0;
@@ -74,12 +87,6 @@ footer{
 
 
 /* CLASSES */
-.button{
-    width: auto;
-    text-align: center;
-    margin: .5rem 0;
-    
-}
 
 .sectionTitle{
     color: white;
@@ -88,6 +95,7 @@ footer{
     width: 100%;
    
 }
+
 
 /* HOME PAGE */
 /*NAVIGATION BAR*/
@@ -109,10 +117,11 @@ footer{
     justify-content: flex-start;
     font-family: 'Righteous', cursive;
 }
-#title>h1, h3{
+#title>h1{
     margin: 0; 
 }
 #title h3{
+    margin: 0;
     font-size: smaller;
 }
 
@@ -125,77 +134,156 @@ footer{
 }
 #contact>a>img{
     width: 1.5rem;
+    
 }
 /* BODY-->MAIN */
 #introduction{
     background: url("../pics/backgrounds/ballBackground.JPEG") no-repeat;
     background-position: center;
     background-size: cover;
+    color: white;
+    height: auto;
+    background-color: black;
+    opacity: .9;
+    border-bottom: 1px solid yellow;
+    
+}
+.banner{
+    fill-opacity: unset;
+    margin: 38% 0 7% 0;
+    text-align: right;
+    font-size: 5rem;
+    font-weight: 400;
+    padding: 10px;
+    font-family: 'Righteous', cursive;
+    color: rgb(251, 255, 1);
+    text-shadow: white 1px 1px 1px;
+}
+/*ABOUT*/
+#about{
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+}
+.slogan{
+    font-size: 2rem;
+    font-family: 'Righteous', cursive;
+    padding: 0 0 0 .5rem;
+}
+#academyDescription{
+   padding: 1rem .3rem;
 }
 
-#intro1{
-   height: 100%;
-    width: 60%;
-    margin: .5rem;
-    font-size: 1.5rem;
-}
-#intro2{
-    width: 20%;
-    margin-right: .5rem;
-    font-size: 1.5rem;
-}
 /* COACHES */
+#coaches{
+    height: auto;
+    margin-bottom: 3rem;
+   
+}
 
-#coachesPics{
-    height: 500px;
-    background: url("../pics/coaches/coachPicMiguel.jpg") no-repeat;
+#coachesInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    /* background: url("../pics/backgrounds/grass.jpg") no-repeat; */
     background-position: center;
     background-size: cover;
 }
+#coachPicture{
+    /* width: 76%;
+    height: 350px; */
+    height: 300px;
+    margin: .5rem; 
+    border-radius: 50%;
+}
+#coachesInfo div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+    
+}
+
+
+#coachesButtonDiv>button{
+    
+    width: 80%; 
+    margin: 0 0 0 10%;
+    padding: 1rem 0;
+}
+
+#coachname2{
+    display: none;
+}
+#coachesDetails{
+    color: rgb(0, 0, 0);
+    margin: 0;
+    background: none;
+    padding: .5rem 0;
+}
+#coachesDetails h3{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+}
+#coachesDetails p{
+    text-align: center;
+    margin: .5rem ;
+    font-size: medium;
+}
+
 /* GALLERY */
+#gallery1{
+    border-bottom: 1px solid yellow;
+}
 #galleryPics{
     height: 500px;
     background: url("../pics/tempPics/IMG_0687.jpg") no-repeat;
     background-position: center;
     background-size: cover;
 }
-
-#gallery2{
-    height: 620px;
-}
-#gallery{
-    height: 620px;
-    /* margin-top: .5rem; */
-    background: url("../pics/backgrounds/blackpattern.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-    
+#galleryPics h1{
+    color: rgb(248, 248, 248);
+    font-size: 2rem;
+    text-shadow: black .5px 1px 1px;
 }
 
 
-#extraDrills>div, #drills>div{
-    width: 90%;
-   margin: 2rem 0 0 5%;
-   opacity: .9;
+#vids{
+  height: 900px;
+  padding: 2rem 0;
+  background-color: rgb(241, 241, 241); 
+}
+
+#video{
+    width: 96%;
+    margin: 0 0 0 2%;
+}
+#vids h3{
+    font-family: 'Oswald', sans-serif;
+}
+#extraDrills div{
+    margin: 1rem;
+   
+    background: none;
+    border: none;
     text-align: center;
-    /* border: 1px solid white; */
 }
-
-#extraDrills>div>p{
-    font-size: larger;
+/*CALENDAR*/
+#calendar{
+    background-color: rgb(241, 241, 241);
 }
-
-#drills>div>p {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    font-size: larger;
+#calendarButton{
+    width: 80%;
+    margin: 0 0 2rem 10%;
 }
-#drills{
+#googleCalendar{
     display: none;
+    padding: 2rem 0;
 }
+
+
 
 /* FOOTER */
 
@@ -254,4 +342,12 @@ footer{
      color: black;
      text-align: center;
      font-family: 'Righteous', cursive;
+    
  }
+
+
+
+
+
+
+ 
