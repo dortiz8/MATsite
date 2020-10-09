@@ -7,16 +7,16 @@ body{
     background-color: rgb(255, 255, 255);
 }
 nav{
-    height: 50px;
+    height: 20vh;
     width: 70%;
-    
-    border-bottom: 1px black solid;
+    border-bottom: 2px rgb(63, 63, 63) solid;
     margin: 0 0 0 15%;
     position: sticky;
     top: 0;
     display: flex;
     background-color: rgb(255, 255, 255);
     z-index: 2;
+    
 }
 footer{
     width: 70%;
@@ -25,7 +25,7 @@ footer{
     display: flex;
     flex-direction: column;
     background-color: rgb(0, 0, 0);
-    height: 250px
+    height: auto; 
 }
 
 main{
@@ -87,7 +87,14 @@ button{
     border-bottom: 1px solid yellow;
 }
 
-
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    color: lightcoral;
+    cursor: pointer;
+}
 
 /* CLASSES */
 
@@ -103,41 +110,28 @@ button{
 /* HOME PAGE */
 /*NAVIGATION BAR*/
 #logo{
-    width: 10%;
+    width: 50%;
+   
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
+    
 }
 #logo>img{
-    width: 2rem;
-}
-
-#title{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    font-family: 'Righteous', cursive;
-}
-#title>h1{
-    margin: 0; 
-}
-#title h3{
-    margin: 0;
-    font-size: smaller;
+    width: 50%; 
+    
 }
 
 
 #contact{
-    width: 40%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    
+    margin-right: 1rem;
 }
 #contact>a>img{
-    width: 1.5rem;
+    width: 2rem;
     margin: 0 0 0 1rem;
 }
 /* BODY-->MAIN */
@@ -291,22 +285,24 @@ button{
 
 
 /* FOOTER */
-
+#createdBy{
+    color: rgb(253, 253, 253);
+    text-align: center;
+    background-color: lightcoral;
+    margin:  0;
+    border-bottom: whitesmoke solid 1px;
+}
 
 #creatorTitle{
-    margin: .5rem 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
 }
-#creatorTitle>h1{
-    font-family: 'Ceviche One', cursive;
-    letter-spacing: .1rem;
-    color: #fdfdfd;
-
-/* text-shadow: 10px 10px 25px rgb(156, 42, 22),
-    -10px 10px 25px rgb(156, 42, 22),
-    -10px -10px 25px rgb(156, 42, 22),
-    10px -10px 25px rgb(156, 42, 22); */
+#webcreatorLogo{
+    width: 10rem;
 }
-
 #footerLinks-SocialMedia{
     display: flex;
     justify-content: center;
@@ -314,11 +310,11 @@ button{
     border-bottom: whitesmoke solid 1px;
 }
 #footerLinks-SocialMedia a{
-   margin: 0;
+   margin: 0 0 1rem .5rem;
 }
 #footerLinks-SocialMedia a>img{
     width: 2rem;
-    margin: 0 .5rem;
+   
  }
  #footerSecurity{
      display: flex;

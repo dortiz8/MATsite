@@ -24,5 +24,11 @@
     #coachPicture{
        height: auto;
     }
+    #logo>img{
+        width: 100%;
+    }
+    #contact>a>img{
+        width: 1.5rem;
+    }
    
 }
