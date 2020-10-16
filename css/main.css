@@ -1,6 +1,6 @@
 
 /*GENERAL ELEMENTS*/
-html, body {width: auto!important; overflow-x: hidden!important; overflow-y: scroll!important;} 
+html, body {width: 100%!important; overflow-x: hidden!important; } 
 body{
     font-family: 'Oswald', sans-serif;
     margin: 0;
@@ -188,10 +188,10 @@ a:hover{
     
 }
 #coachPicture{
-    width: 80%;
+    width: 60%;
     
-    height: 350px; 
-    margin: .5rem 0 .5rem 10%; 
+    height: 300px; 
+    margin: .5rem 0 .5rem 20%; 
     border-radius: 50%;
 }
 #coachesInfo div{
@@ -307,7 +307,7 @@ a:hover{
     
 }
 #webcreatorLogo{
-    width: 10rem;
+    width: 30%;
 }
 #footerLinks-SocialMedia{
     display: flex;
@@ -322,17 +322,17 @@ a:hover{
     width: 2rem;
    
  }
- #footerSecurity{
+ #generalInfoSection{
      display: flex;
      color: rgb(184, 184, 184);
      font-family: 'Righteous', cursive;
      font-size: .8rem;
      margin: 1rem .5rem;
  }
- #footerSecurity>div>a{
+ #generalInfoSection>div>a{
      margin: .3rem 0;
  }
- #footerSecurity>div{
+ #generalInfoSection>div{
      width: 50%;
     display: flex;
     flex-direction: column;
@@ -352,6 +352,38 @@ a:hover{
     
  }
 
+/*GENERAL INFORMATION DIV*/
+
+.generalInformation{
+    border: 1px solid yellow; 
+    position: fixed;
+    background-color: rgb(53, 52, 52);
+    margin-left: 20%;
+    top: 25%;
+    z-index: 3;
+    width: 60%; 
+    padding: .5rem 0;
+    display: none; 
+}
+.pIText{
+    width: 80%;
+    
+    padding: .5rem 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0 0 0 10%;
+}
+.closeX{
+    text-align: right;
+    margin-right: 1rem;
+    margin-top: .5rem;
+    font-size: 1.5rem;
+    color: yellow; 
+    
+}
+.x:hover{
+    cursor: pointer;
+}
 
 
 

@@ -12,7 +12,15 @@
         width: 100%;
         margin: 0;
     }
-   
+    
+    /*COACHES SECTION*/
+    #coachPicture{
+        width: 70%;
+        margin-left: 15%;
+    }
+    #webcreatorLogo{
+        width: 70%;
+    }
    
 }
 @media only screen and (max-width: 500px) {
@@ -22,7 +30,7 @@
         margin: 0;
     }
     #coachPicture{
-       height: auto;
+       height: 200px;
     }
     #logo>img{
         width: 100%;
