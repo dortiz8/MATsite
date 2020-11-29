@@ -13,10 +13,6 @@
     margin: 0;
   }
   /*COACHES SECTION*/
-  #coachPicture {
-    width: 70%;
-    margin-left: 15%;
-  }
   #webcreatorLogo {
     width: 70%;
   }
@@ -28,7 +24,9 @@
     margin: 0;
   }
   #coachPicture {
-    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+    background-position: center;
   }
   #logo > img {
     width: 100%;

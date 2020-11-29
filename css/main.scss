@@ -1,10 +1,18 @@
 
 /*GENERAL ELEMENTS*/
 html, body {width: 100%!important; overflow-x: hidden!important; }
+
+$main-bg-color:  rgb(255, 255, 255);
+@mixin hover{
+    cursor: pointer;
+    font-size: larger;
+    color: rgb(223, 145, 0);
+    border: 1px solid rgb(223, 145, 0);
+}
 body{
     font-family: 'Oswald', sans-serif;
     margin: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: $main-bg-color; 
 }
 nav{
     height: 20vh;
@@ -92,8 +100,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: lightcoral;
-    cursor: pointer;
+   cursor: pointer;
 }
 
 /* CLASSES */
@@ -198,13 +205,6 @@ a:hover{
     border-radius: 8px;
     border: 1px solid black;
 }
-#coachesInfo div{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-
-
-}
 
 
 #coachesButtonDiv>button{
@@ -214,10 +214,7 @@ a:hover{
     padding: 1rem 0;
     transition: font-size .4s ease-out;
     &:hover{
-        cursor: pointer;
-        font-size: larger;
-        color: rgb(223, 145, 0);
-        border: 1px solid rgb(223, 145, 0);
+      @include hover;
     }
 }
 
