@@ -1,0 +1,397 @@
+
+/*GENERAL ELEMENTS*/
+html, body {width: 100%!important; overflow-x: hidden!important; }
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    height: 20vh;
+    width: 70%;
+    border-bottom: 2px rgb(63, 63, 63) solid;
+    margin: 0 0 0 15%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+
+}
+footer{
+    width: 70%;
+    margin: 0 0 0 15%;
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    height: auto;
+}
+
+main{
+    width: 70%;
+
+    margin: 0 0 0 15%;
+    border-bottom: 1px solid yellow;
+}
+section{
+    /* height: 700px; */
+
+    /* border: 1px blue solid; */
+    display: flex;
+    flex-direction: column;
+
+
+}
+article{
+    display: flex;
+    justify-content: center;
+}
+article div{
+    border: 1px solid rgb(248, 248, 248);
+    background-color: rgb(65, 65, 65);
+    opacity: .9;
+    height: auto;
+    text-align: center;
+}
+article div>p{
+    width: 80%;
+    margin-left: 10%;
+    font-size: medium;
+}
+
+h1{
+    text-align: center;
+    margin: 2rem 0 ;
+    font-family: 'Righteous', cursive;
+    color: rgb(53, 53, 53);
+}
+h3{
+    text-align: center;
+    margin: 1rem;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(53, 53, 53);
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    margin: .5rem 0;
+}
+button{
+    font-size: large;
+    padding: .5rem 0;
+    border: none;
+    color: yellow;
+    background-color: black;
+    font-family: 'Righteous', cursive;
+    background:black;
+    border-bottom: 1px solid yellow;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    color: lightcoral;
+    cursor: pointer;
+}
+
+/* CLASSES */
+
+.sectionTitle{
+    color: white;
+}
+.videos>video{
+    width: 100%;
+
+}
+
+
+/* HOME PAGE */
+/*NAVIGATION BAR*/
+#logo{
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+#logo>img{
+    width: 50%;
+
+}
+
+
+#contact{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+#contact>a>img{
+    width: 2rem;
+    margin: 0 0 0 1rem;
+}
+/* BODY-->MAIN */
+#introduction{
+    background: url("../pics/backgrounds/ballBackground.JPEG") no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: auto;
+    background-color: black;
+    opacity: .9;
+    border-bottom: 1px solid yellow;
+
+}
+.banner{
+    fill-opacity: unset;
+    margin: 38% 0 7% 0;
+    text-align: right;
+    font-size: 5rem;
+    font-weight: 400;
+    padding: 10px;
+    font-family: 'Righteous', cursive;
+    color: rgb(251, 255, 1);
+    text-shadow: white 1px 1px 1px;
+}
+/*ABOUT*/
+#about{
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+}
+.slogan{
+    font-size: 2rem;
+    font-family: 'Righteous', cursive;
+    padding: 0 0 0 .5rem;
+}
+#academyDescription{
+   padding: 1rem .3rem;
+}
+
+/* COACHES */
+#coaches{
+    width: 70%;
+    margin-left: 15%;
+    height: auto;
+    margin-bottom: 3rem;
+
+
+}
+
+#coachesInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+#coachPicture{
+    height: 320px;
+    width: auto;
+    margin-bottom: 1rem;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+#coachesInfo div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+
+
+#coachesButtonDiv>button{
+
+    width: 80%;
+    margin: 0 0 0 10%;
+    padding: 1rem 0;
+    transition: font-size .4s ease-out;
+    &:hover{
+        cursor: pointer;
+        font-size: larger;
+        color: rgb(223, 145, 0);
+        border: 1px solid rgb(223, 145, 0);
+    }
+}
+
+#coachname2{
+    display: none;
+}
+#coachesDetails{
+    color: rgb(0, 0, 0);
+
+    background: none;
+    padding: .5rem 0;
+}
+#coachesDetails h3{
+    margin: .5rem 0;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+}
+#coachesDetails p{
+    text-align: center;
+    margin: .5rem ;
+    font-size: medium;
+}
+
+/* GALLERY */
+#gallery1{
+    border-bottom: 1px solid yellow;
+    margin: 3rem 0 0 0;
+}
+#galleryPics{
+    height: 500px;
+    background: url("../pics/tempPics/IMG_0687.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#galleryPics h1{
+    color: yellow;
+    font-size: 2rem;
+    text-shadow: black .5px 1px 1px;
+}
+
+
+#vids{
+  height: auto;
+  padding: 2rem 0;
+  background-color: rgb(241, 241, 241);
+}
+
+#video{
+    width: 96%;
+    margin: 0 0 0 2%;
+}
+#vids h3{
+    font-family: 'Oswald', sans-serif;
+}
+#extraDrills div{
+    margin: 1rem;
+
+    background: none;
+    border: none;
+    text-align: center;
+}
+/*CALENDAR*/
+#calendar{
+   text-align: center;
+    margin: 2rem 0;
+}
+#calendar h1{
+    margin: .5rem 0;
+}
+#calendarButton{
+    width: 40%;
+    margin: 0 0 2rem 30%;
+    color: white;
+
+}
+#googleCalendar{
+    display: none;
+    padding: 0;
+}
+
+
+
+/* FOOTER */
+#createdBy{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: yellow;
+    margin:  0;
+    border-bottom: whitesmoke solid 1px;
+}
+
+#creatorTitle{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+#webcreatorLogo{
+    width: 30%;
+}
+#footerLinks-SocialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: whitesmoke solid 1px;
+}
+#footerLinks-SocialMedia a{
+   margin: 0 0 1rem .5rem;
+}
+#footerLinks-SocialMedia a>img{
+    width: 2rem;
+
+ }
+ #generalInfoSection{
+     display: flex;
+     color: rgb(184, 184, 184);
+     font-family: 'Righteous', cursive;
+     font-size: .8rem;
+     margin: 1rem .5rem;
+ }
+ #generalInfoSection>div>a{
+     margin: .3rem 0;
+ }
+ #generalInfoSection>div{
+     width: 50%;
+    display: flex;
+    flex-direction: column;
+
+ }
+ #waiver{
+     text-align: right;
+ }
+ #copyRight{
+     background-color: white;
+     margin: 0;
+ }
+ #copyRight>p{
+     color: black;
+     text-align: center;
+     font-family: 'Righteous', cursive;
+
+ }
+
+/*GENERAL INFORMATION DIV*/
+
+.generalInformation{
+    border: 1px solid yellow;
+    position: fixed;
+    background-color: rgb(53, 52, 52);
+    margin-left: 20%;
+    top: 25%;
+    z-index: 3;
+    width: 60%;
+    padding: .5rem 0;
+    display: none;
+}
+.pIText{
+    width: 80%;
+
+    padding: .5rem 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0 0 0 10%;
+}
+.closeX{
+    text-align: right;
+    margin-right: 1rem;
+    margin-top: .5rem;
+    font-size: 1.5rem;
+    color: yellow;
+
+}
+.x:hover{
+    cursor: pointer;
+}

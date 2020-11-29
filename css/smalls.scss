@@ -1,0 +1,42 @@
+@media only screen and (max-width: 768px) {
+    /* BODY-->MAIN */
+     main{
+        width: 100%;
+        margin: 0;
+    }
+    nav{
+        width: 100%;
+        margin: 0;
+    }
+    footer{
+        width: 100%;
+        margin: 0;
+    }
+    
+    /*COACHES SECTION*/
+    #coachPicture{
+        width: 70%;
+        margin-left: 15%;
+    }
+    #webcreatorLogo{
+        width: 70%;
+    }
+   
+}
+@media only screen and (max-width: 500px) {
+  
+    #coaches{
+        width: 100%;
+        margin: 0;
+    }
+    #coachPicture{
+       height: 200px;
+    }
+    #logo>img{
+        width: 100%;
+    }
+    #contact>a>img{
+        width: 1.5rem;
+    }
+   
+}
